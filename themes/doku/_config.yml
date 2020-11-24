@@ -1,0 +1,39 @@
+# Favicon
+favicon: 'theme-doku/img/favicon.ico'
+
+# --------------------
+# Navbar
+# --------------------
+navbar:
+  # The URL of Logo which will be shown at navbar
+  logo: 'theme-doku/img/logo.png'
+  # If you Logo has no text, you can add title next to your logo.
+  # Leave it as an empty string if you don't have
+  logo_text: 'LPC'
+  links:
+    zh-TW:
+      - logo: ''
+        text: '文件'
+        url: '/'
+      - logo: 'fab fa-github'
+        text: ''
+        url: 'https://github.com/MUD-tw/LPC-Guide'
+
+# --------------------
+# Sidebar Items
+# --------------------
+sidebar:
+  zh-TW: # Language
+    docs: # Type bname
+      level: 2 # 1 or 2
+      items:
+        - '開始':
+            - '測試頁面 | test/'
+            - '測試頁面 | test/'
+        - '基本操作':
+            - '測試頁面 | test/'
+            - '測試頁面 | test/'
+
+github:
+  repo: MUD-tw/LPC-Guide
+  edit_on_github: true
